@@ -7,3 +7,4 @@ def benchmark(func):
     end = time.time()
     print('Время выполнения: {} секунд.'.format(end-start))
   return wrapper
+
