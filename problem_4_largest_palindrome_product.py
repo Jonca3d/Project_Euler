@@ -9,19 +9,11 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 """
 from utilities import benchmark
 
-# def benchmark(func):
-#   import time
-
-#   def wrapper():
-#     start = time.time()
-#     func()
-#     end = time.time()
-#     print('Время выполнения: {} секунд.'.format(end-start))
-#   return wrapper
-
-
 @benchmark
-def test():
-  print('OWO')
+def largest_palindrome_product():
+  pass
 
-test()
+
+
+
+largest_palindrome_product()
