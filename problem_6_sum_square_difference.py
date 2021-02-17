@@ -12,10 +12,10 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 from fractions import Fraction
 
+
 def sum_of_squares(amount_of_elements):
     am = amount_of_elements
     return Fraction(am*(am+1)*(2*am+1), 6)
-
 
 
 def squared_sum(amount_of_elements):
