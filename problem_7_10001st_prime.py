@@ -11,7 +11,8 @@ What is the 10 001st prime number?
 import math
 
 number = 5
-
+# prime_number - Начинаем поиск простых чисел с 3
+# x - тройка второе по счету простое число. х - хранит порядковый номер простого числа
 x = 2
 prime_number = 3
 
@@ -20,12 +21,10 @@ prime_number = 3
 while(x < 10001):
     for i in range(2, int(math.sqrt(number))+1):
         if number % i == 0:
-            # print(i)
             break
         if i == int(math.sqrt(number)):
             x += 1
             prime_number = number
-    print(x)
     number += 1
 
 print(f'x: {x}\tprime: {prime_number}')
